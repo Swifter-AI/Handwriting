@@ -115,21 +115,15 @@
 
 定义了神经网络后，让我们回到手写识别。我们能将识别手写数字分成两个子问题。首先，我们想办法将一个包含很多数字的图像分成一系列独立的图像，每张包含唯一的数字。比如我们将把下面图像
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-6/28542473.jpg)
 <img src="http://og1yl0w9z.bkt.clouddn.com/17-11-6/28542473.jpg" width=120 height=35 />
-
 
 分成6个分离的小图像，
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-6/40186974.jpg)
-<img src="http://og1yl0w9z.bkt.clouddn.com/17-11-6/40186974.jpg" width=50 height=35 />
-
+<img src="http://og1yl0w9z.bkt.clouddn.com/17-11-6/40186974.jpg" width=120 height=35 />
 
 我们人类能够很容易解决这个分段问题，但是对于计算机程序如何正确的分离图像却是一个挑战。然后，一旦这幅图像被分离，程序需要将各个数字进行分类。因此，比如，我们希望程序能够将上面的第一个数字
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-6/47364313.jpg)
 <img src="http://og1yl0w9z.bkt.clouddn.com/17-11-6/47364313.jpg" width=50 height=35 />
-
 
 识别为5。
 
@@ -147,11 +141,11 @@
 
 它能够对输入图像与上面图像中像素重叠部分进行重加权，其他像素轻加权来实现。相似的方式，对隐含层的第二、三和四个神经元同样能检测到如下所示的图像：
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-6/96204736.jpg)
+<img src="http://og1yl0w9z.bkt.clouddn.com/17-11-6/96204736.jpg" width=50 height=35 />
 
 你可能已经猜到，这四幅图像一起构成了我们之前看到的0的图像：
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-11-6/79412966.jpg)
+<img src="http://og1yl0w9z.bkt.clouddn.com/17-11-6/79412966.jpg" width=50 height=35 />
 
 因此如果这四个神经元一起被触发，那么我们能够推断出手写数字是0。当然，这些不只是我们能推断出0的凭据类别——我们也可以合理的用其他方式得到0（通过对上述图像的平移或轻微扭曲）。但是至少这种方式推断出输入是0看起来是安全的。
 
