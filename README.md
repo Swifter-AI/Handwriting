@@ -116,14 +116,20 @@
 定义了神经网络后，让我们回到手写识别。我们能将识别手写数字分成两个子问题。首先，我们想办法将一个包含很多数字的图像分成一系列独立的图像，每张包含唯一的数字。比如我们将把下面图像
 
 ![](http://og1yl0w9z.bkt.clouddn.com/17-11-6/28542473.jpg)
+<img src="http://og1yl0w9z.bkt.clouddn.com/17-11-6/28542473.jpg" width=120 height=35 />
+
 
 分成6个分离的小图像，
 
 ![](http://og1yl0w9z.bkt.clouddn.com/17-11-6/40186974.jpg)
+<img src="http://og1yl0w9z.bkt.clouddn.com/17-11-6/40186974.jpg" width=50 height=35 />
+
 
 我们人类能够很容易解决这个分段问题，但是对于计算机程序如何正确的分离图像却是一个挑战。然后，一旦这幅图像被分离，程序需要将各个数字进行分类。因此，比如，我们希望程序能够将上面的第一个数字
 
 ![](http://og1yl0w9z.bkt.clouddn.com/17-11-6/47364313.jpg)
+<img src="http://og1yl0w9z.bkt.clouddn.com/17-11-6/47364313.jpg" width=50 height=35 />
+
 
 识别为5。
 
