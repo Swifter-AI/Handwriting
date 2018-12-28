@@ -124,7 +124,7 @@
 
 我们人类能够很容易解决这个分段问题，但是对于计算机程序如何正确的分离图像却是一个挑战。然后，一旦这幅图像被分离，程序需要将各个数字进行分类。因此，比如，我们希望程序能够将上面的第一个数字
 
-<img src="http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-12-28/268221.jpg" width=35 height=35 />
+<img src="http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-12-28/86437285.jpg" width=35 height=35 />
 
 识别为5。
 
